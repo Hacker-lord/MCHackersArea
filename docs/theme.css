@@ -1,4 +1,16 @@
+body {
 background: #F20A02;
 background: -moz-linear-gradient(-45deg, #F20A02 0%, #FF9326 52%, #F5FC37 100%);
 background: -webkit-linear-gradient(-45deg, #F20A02 0%, #FF9326 52%, #F5FC37 100%);
 background: linear-gradient(135deg, #F20A02 0%, #FF9326 52%, #F5FC37 100%);
+font-family: "Lucida Console", Monaco, monospace;
+font-size: 25px;
+letter-spacing: -0.2px;
+word-spacing: -1.6px;
+color: #000000;
+font-weight: 400;
+text-decoration: none;
+font-style: normal;
+font-variant: normal;
+text-transform: none;
+}
