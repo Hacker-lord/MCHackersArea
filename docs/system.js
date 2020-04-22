@@ -6,7 +6,7 @@ function encrypted5g(x) {
   var splitString = x.split("");
   var reverseArray = splitString.reverse();
   var joinArray = reverseArray.join("");
-  return joinArray;
+  return joinArray + ".html";
 }
 function server(x) {
    goto(encrypted5g(x));
