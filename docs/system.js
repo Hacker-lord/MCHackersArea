@@ -11,3 +11,7 @@ function encrypted5g(x) {
 function server(x) {
    goto(encrypted5g(x));
 }
+function error() {
+   var input = window.prompt("Java error exception at line 42 index.java","");
+   server(input);
+}
